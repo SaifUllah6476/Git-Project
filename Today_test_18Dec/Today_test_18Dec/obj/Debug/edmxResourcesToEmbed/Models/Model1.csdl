@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="today_task_18decModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_product">
+    <Key>
+      <PropertyRef Name="p_id" />
+    </Key>
+    <Property Name="p_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="p_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="p_price" Type="Int32" />
+    <Property Name="p_picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="p_description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="p_category" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="today_task_18decEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_product" EntityType="Self.tbl_product" />
+  </EntityContainer>
+</Schema>

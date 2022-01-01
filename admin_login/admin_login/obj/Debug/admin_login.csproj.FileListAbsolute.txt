@@ -1,0 +1,10 @@
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\bin\Debug\admin_login.exe.config
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\bin\Debug\admin_login.exe
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\bin\Debug\admin_login.pdb
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\obj\Debug\admin_login.csprojResolveAssemblyReference.cache
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\obj\Debug\admin_login.Form1.resources
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\obj\Debug\admin_login.Properties.Resources.resources
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\obj\Debug\admin_login.csproj.GenerateResource.Cache
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\obj\Debug\admin_login.csproj.CoreCompileInputs.cache
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\obj\Debug\admin_login.exe
+c:\users\asp.aptechnk\source\repos\admin_login\admin_login\obj\Debug\admin_login.pdb

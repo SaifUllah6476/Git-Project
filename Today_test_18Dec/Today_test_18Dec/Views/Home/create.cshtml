@@ -1,0 +1,22 @@
+﻿@using (Html.BeginForm("create", "Home", FormMethod.Post, new { enctype = "multipart/form-date" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.p_price, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.p_price, new { htmlAttributes = new { @class = "form-contro" } }))
+            @Html.ValidationMessageFor(model => model.p_price, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.p_picture, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="file" name="file" />
+        </div>
+
+
+    </div>
+
+}
